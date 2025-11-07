@@ -1,0 +1,76 @@
+body
+{
+    font-family: Georgia;
+}
+
+header
+{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#lewy, #srodek
+{
+    background-color: #A26475;
+    color: white;
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+
+#prawy
+{
+    background-color: #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+    float: left;
+}
+
+#glowny
+{
+    background-color: #F0EAE2;
+    padding: 50px;
+}
+
+footer
+{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+table, td, th
+{
+    border: solid 2px #69293A;
+    padding: 7px;
+    border-collapse: collapse;
+}
+
+ul > li
+{
+    list-style-type: square;
+}
+
+#button1
+{
+    background-color: red;
+    height: 15px;
+}
+
+#button2
+{
+    background-color: green;
+    height: 15px;
+}
+
+#button3
+{
+    background-color: blue;
+    height: 15px;
+}
