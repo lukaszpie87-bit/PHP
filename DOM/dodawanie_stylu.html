@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .p{ border: solid 1px red;}
+    </style>
+    <div id="box"></div>
+    <script> 
+        let box = document.querySelector("#box");
+        let akapit = document.createElement("p");
+        akapit.classList.add('p');
+        akapit.innerHTML = "to jest akapit";
+        box.appendChild(akapit);
+        </script>
+</body>
+</html>
